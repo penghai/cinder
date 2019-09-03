@@ -1,0 +1,16 @@
+
+root_db_user: root
+root_db_password: root
+
+cinder_db_name: cinder
+cinder_db_user: cinder
+cinder_db_password: cinder
+mgnt_vip: 172.16.1.10
+mgnt_passwd: admin
+region_name: RegionOne
+memcached_servers: 172.16.1.11,172.16.1.12,172.16.1.13
+
+cinder_name: cinder
+cinder_password: cinder
+rabbitmq_user: openstack
+rabbitmq_password: openstack

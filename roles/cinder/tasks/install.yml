@@ -1,0 +1,12 @@
+- name: Install the packages
+  yum:
+    name: openstack-cinder
+    state: present
+
+#- name: config cinder
+#  template:
+#    src: cinder.conf
+#    dest: /etc/cinder/cinder.conf
+#    owner: root
+#    group: cinder
+#    mode: "0640"

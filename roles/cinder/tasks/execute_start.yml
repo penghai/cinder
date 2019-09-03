@@ -1,0 +1,9 @@
+- name: Start the Block Storage services and configure them to start when the system boots
+  service:
+    name: "{{item}}"
+    state: restarted
+    enabled: yes
+  with_items:
+    - openstack-cinder-api
+    - openstack-cinder-scheduler
+    - openstack-cinder-volume

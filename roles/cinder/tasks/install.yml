@@ -15,3 +15,11 @@
     owner: root
     group: cinder
     mode: "0640"
+
+- name: config multipath
+  template:
+    src: multipath.conf
+    dest: /etc/multipath.conf
+    owner: root
+    group: root
+    mode: "0640"

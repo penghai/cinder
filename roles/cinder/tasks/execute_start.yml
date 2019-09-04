@@ -6,6 +6,7 @@
   with_items:
     - target.service
     - lvm2-lvmetad
+    - multipathd
     - openstack-cinder-api
     - openstack-cinder-scheduler
     - openstack-cinder-volume

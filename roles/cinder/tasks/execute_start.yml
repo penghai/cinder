@@ -4,6 +4,9 @@
     state: restarted
     enabled: yes
   with_items:
+    - target.service
+    - lvm2-lvmetad
     - openstack-cinder-api
     - openstack-cinder-scheduler
     - openstack-cinder-volume
+    - openstack-cinder-backup

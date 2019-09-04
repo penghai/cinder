@@ -1,6 +1,11 @@
 - name: Install the packages
   yum:
-    name: openstack-cinder
+    name: 
+      - openstack-cinder
+      - targetcli
+      - python-keystone
+      - lvm2 
+      - device-mapper-persistent-data
     state: present
 
 - name: config cinder

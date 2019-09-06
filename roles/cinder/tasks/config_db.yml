@@ -6,7 +6,6 @@
 
 - name: Create the {{cinder_db_name}} database
   shell: mysql -u{{root_db_user}} -p{{root_db_password}} -e "CREATE DATABASE {{cinder_db_name}};"
-  ignore_errors: yes
   when: info.rc != 0
   run_once: true
 

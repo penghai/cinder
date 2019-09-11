@@ -21,4 +21,4 @@
     - openstack-cinder-scheduler
     - openstack-cinder-volume
     - openstack-cinder-backup
-#    - target.service
+    - target.service
